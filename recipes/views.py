@@ -1,9 +1,40 @@
 from django.shortcuts import render, HttpResponse
 
+recipes = [
+
+    {
+    'author': 'Connor',
+    'title': 'Homemade Lasagne',
+    'ingredients': 'everything we need to make it',
+    'method': 'how to make it',
+    'date_posted': 'March 26, 2024'
+    },
+
+    {
+    'author': 'Jamie',
+    'title': 'Italian Pasta',
+    'ingredients': 'everything we need to make it',
+    'method': 'how to make it',
+    'date_posted': 'March 27, 2024'
+    },
+
+    {
+    'author': 'Mia',
+    'title': 'Sliders',
+    'ingredients': 'everything we need to make it',
+    'method': 'how to make it',
+    'date_posted': 'March 28, 2024'
+    },
+
+]
+
 # Create your views here.
 
 def home(request):
-    return HttpResponse("<h1>Seasonique - Original recipes all year round!</h1>")
+    context={
+        'recipes' : recipes
+    }
+    return render(request, "recipes/home.html", context)
 
 def mainrecipes(request):
-    return HttpResponse("<h1>Seasonique</h1>")
+    return render(request, "recipes/mainrecipes.html", {'title':'Main Recipes'})
