@@ -1,0 +1,3 @@
+As of 26/03/2024
+
+I've had to restart a few times to clear a lot of errors that i couldn't find solutions to such as a recursion error which for some reason something was looping and exceeded the depth limit. This project is a current work in progress, and it aims to display my experience and a little of my past knowledge concerning html, web design, django frameworks and source control. I will continue to update my repository through source control which i learnt during my last project. I'll also add a few links from resources I gathered researching and understanding how django works and why it's used.

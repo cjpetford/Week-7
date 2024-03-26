@@ -1,0 +1,83 @@
+
+these are the main resources i've used to learn django
+
+1. Installing and creating a simple Django project
+https://www.youtube.com/watch?v=nGIg40xs9e4&ab_channel=TechWithTim
+
+2. Extensive tutorial with steps on creating your project with 7 parts. Includes paths
+https://docs.djangoproject.com/en/5.0/intro/tutorial01/
+
+Login and admin privelleges necessary. Navbar requires daily recipes with breakfast 
+lunch dinner chefs vid and static customer reviews and a footer w our links
+if for example breakfast is clicked, move navbar and header etc. should contain minimum
+3 recipes per page, with name author date published and description add a photo if u want
+login register logout add recipe opens new form   
+
+Assessment Task 1 
+most likely Language Migration 2/10 from exercise + 2 surprise c# to python exercises
+Task 2 Source and version control -> git command line write correct commands
+Task 3 recipe aoo
+Task 4 documentation
+
+this friday recipe app done
+monday language migration
+tuesday git commands
+next friday documentation
+
+Set Up Django Project:
+Install Django using pip if you haven't already: pip install django.
+Create a new Django project: django-admin startproject seasonique_project.
+Navigate to the project directory: cd seasonique_project.
+Create Django Apps:
+
+Django apps help organize your project. Create apps for different features:
+Copy code
+python manage.py startapp recipes
+python manage.py startapp accounts
+Define Models:
+
+In each app, define models to represent your data (e.g., recipes, categories, user profiles).
+Open each app's models.py file and define your models using Django's model syntax.
+Set Up Admin Interface:
+
+Register your models in the admin interface for easy content management.
+Customize the admin interface if needed.
+Implement Views and Templates:
+
+Create views to handle HTTP requests and render templates.
+Create HTML templates to render the frontend. Use Django's template language for dynamic content.
+Implement Authentication:
+
+Utilize Django's built-in authentication system.
+Implement login, signup, logout, and password recovery views.
+Implement User Authorization:
+
+Define permissions to control access to certain features (e.g., only logged-in users can create or delete recipes).
+Implement Forms:
+
+Create forms for user input (e.g., recipe submission form).
+Use Django's form handling to process form data.
+Implement Search Functionality:
+
+Create a view to handle search queries.
+Implement search logic based on recipe names, ingredients, etc.
+Implement Personalization:
+
+Create views and templates to allow users to save favorite recipes.
+Implement logic to manage user favorites.
+Style Your Website:
+
+Use CSS to style your HTML templates.
+Ensure the design is visually appealing and responsive.
+Testing:
+
+Test your website thoroughly to ensure all features work as expected.
+Debug any issues that arise.
+Deployment:
+
+Once everything works locally, deploy your website to a web server. Options include Heroku, PythonAnywhere, or your own server.
+Documentation and Demonstration:
+
+Document your code and setup process.
+Prepare a demonstration showcasing all features and functionalities of your website.
+This is a high-level overview, and each step may require further research and implementation details. You can refer to the Django documentation and tutorials for more in-depth guidance on each aspect of building your website. Additionally, there are many online resources and communities (such as Stack Overflow and the Django community) where you can seek help if you encounter any challenges along the way.
