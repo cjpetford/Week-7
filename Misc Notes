@@ -81,3 +81,31 @@ Documentation and Demonstration:
 Document your code and setup process.
 Prepare a demonstration showcasing all features and functionalities of your website.
 This is a high-level overview, and each step may require further research and implementation details. You can refer to the Django documentation and tutorials for more in-depth guidance on each aspect of building your website. Additionally, there are many online resources and communities (such as Stack Overflow and the Django community) where you can seek help if you encounter any challenges along the way.
+
+recipes = [
+
+    {
+    'author': 'Connor',
+    'title': 'Homemade Lasagne',
+    'ingredients': 'everything we need to make it',
+    'method': 'how to make it',
+    'date_posted': 'March 26, 2024'
+    },
+
+    {
+    'author': 'Jamie',
+    'title': 'Italian Pasta',
+    'ingredients': 'everything we need to make it',
+    'method': 'how to make it',
+    'date_posted': 'March 27, 2024'
+    },
+
+    {
+    'author': 'Mia',
+    'title': 'Sliders',
+    'ingredients': 'everything we need to make it',
+    'method': 'how to make it',
+    'date_posted': 'March 28, 2024'
+    },
+
+]
