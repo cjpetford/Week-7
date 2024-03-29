@@ -1,0 +1,49 @@
+/* custom.css */
+
+/* Override Bootstrap styles here */
+
+/* Body */
+body {
+    background-color: #f9f7f7; /* Light pastel background color */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #f3e0e0; /* Pastel pink navbar background color */
+}
+
+/* Text Colors */
+.text-dark {
+    color: #3c3b3b; /* Dark pastel text color */
+}
+
+/* Links */
+a {
+    color: #6c5b7b; /* Pastel purple link color */
+}
+
+/* Buttons */
+.btn {
+    background-color: #b1a8b0; /* Pastel gray button background color */
+    border-color: #b1a8b0; /* Pastel gray border color */
+    color: #3c3b3b; /* Dark pastel text color for buttons */
+}
+
+.btn:hover {
+    background-color: #9b8fa4; /* Lighter pastel gray on button hover */
+    border-color: #9b8fa4; /* Lighter pastel gray border color on button hover */
+    color: #3c3b3b; /* Dark pastel text color on button hover */
+}
+
+/* Cards */
+.card {
+    background-color: #f3e0e0; /* Pastel pink card background color */
+    border-color: #f3e0e0; /* Pastel pink card border color */
+}
+
+/* Input fields */
+.form-control {
+    background-color: #f3e0e0; /* Pastel pink input field background color */
+    border-color: #b1a8b0; /* Pastel gray input field border color */
+    color: #3c3b3b; /* Dark pastel text color for input fields */
+}
